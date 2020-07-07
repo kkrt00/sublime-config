@@ -1,0 +1,10 @@
+{
+	"line_numbers": true,	
+	"wrap_width": 10,
+	"word_wrap": false,
+	"draw_centered": false,
+	"gutter": true,
+	"margin": 10,
+	"fade_fold_buttons": false,
+	"fold_buttons": false,
+}

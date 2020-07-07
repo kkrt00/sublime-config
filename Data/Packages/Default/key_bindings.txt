@@ -1,0 +1,112 @@
+QUICK REFERENCE GUIDE FOR MY CUSTOM SUBLIME KEYBINDINGS
+----------------------------------------------------
+
+META => ALT
+SUPER => WIN KEY
+C- => CTRL
+
+BASIC NAVIGATION STILL WINDOWS's standard
+
+SHIFT+/ | CTRL+SHIFT+/	Comment lines // and /* */
+
+CTRL+ALT+UP|DOWN 		Multiline selection
+SHIFT+F11 				Turn on Distraction Free mode
+CTRL+K CTRL+V			Copy from History
+CTRL+UP|DOWN			Scroll 10 lines withot moving cursor
+CTRL+K CTRL+/			Show file difference [ala git]
+CTRL+M 					Move between brackets
+CTRL+G 					Go to line X
+CTRL+SHIFT+UP|DOWN		Move line
+CTRL+[ | ] 				Itend/Unitend whole line
+CTRL+SHIFT+[ | ] 		Fold/Unfold code in brackets
+CTRL+D 					Select current word
+CTRL+SHIFT+D 			Duplicate line or selection
+CTRL+SHIFT+L 			Split selection in multiline selection
+ALT + S					Save File
+ALT + W					Move to other layout
+
+** Mark Manipulation **
+
+CTRL+B CTRL+X 			Swap mark with current location [to be rebinded]
+CTRL+O 					Select from mark
+
+
+*** Keys to be rebinded ***
+
+CTRL+P / CTRL+SHIFT+P 	Show Sublime's functionality panel search
+CTRL+Q 					Start and stop recording marco
+CTRL+SHIFT+Q 			Run marco
+CTRL+DEL				Delete rest of the line
+CTRL+P 					Show search for active file
+CTRL+TAB 				Move to another view within layout
+ALT+` 					Toggle Side bar
+CTRL+F 					Find menu
+CTRL+H 					Replace menu
+CONTEXT + ARROW			Move file to other layout
+
+** Incremental search **
+Ctrl + S 				activate inc search
+	Ctrl+S|R 			Next | Previous
+	Ctrl+W				Move to Next and Append Select to it
+	Alt+D 				Next and select search keyword
+	Alt+A				Select ALL
+	Enter 				Leave and select 
+
+
+
+
+
+
+
+
+====== OLD CASEY's EMACS =======
+TAB          Cycles through completions for a word.
+
+ALT-B        Switch to buffer in the current window.
+ALT-SHIFT-B  Switch to buffer in the other window.
+
+ALT-F        Load file in the current window.
+ALT-SHIFT-F  Load file in the other window.
+
+ALT-S        Save the file in the current window.
+ALT-M        Looks for and executes a build.bat.
+ALT-R        Revert buffer.
+
+ALT-W        Switch to the other window.
+
+ALT-C        Toggles between H file and CPP file in current window.
+ALT-SHIFT-C  Toggles between H file and CPP file in other window.
+
+ALT-K        Kills a buffer (ask to save it first if it's modified).
+
+CTRL-arrows  Move cursor by larger increments (word, whitespace)
+
+CTRL-SPACE   Sets the mark.
+CTRL-TAB     Reindent block.
+CTRL-Q       Copies the block.
+CTRL-F       Pastes the block.
+CTRL-W       Cuts the block.
+ALT-SHIFT-;  Pops back to the previous mark.
+
+ALT-U        Undo
+
+ALT-J        Jump to a function by name.
+
+CTRL-S       Start incremental search.
+  CTRL-S     Moves to next occurrence.
+  CTRL-R     Moves to previous occurrence.
+
+ALT-O        Query replace.
+ALT-L        Replace inside block.
+
+ALT-[        Begin recording keyboard macro.
+ALT-]        End recording keyboard macro.
+ALT-'        Replay keyboard macro.
+
+ALT-.        Reflow a comment.
+
+ALT-N        Go to the next error after a compile.
+ALT-SHIFT-N  Go to the previous error after a compile.
+
+ALT-G        Goto line number.
+
